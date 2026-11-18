@@ -119,13 +119,12 @@ My own sense of speed is not evidence. Tests passing, defects caught and time to
 
 As of November 2026, each is being fixed.
 
-- **CI**: no public repo runs it yet.
 - **History**: one commit per repo, because the private history held secrets or client data.
 - **Evals**: no public harness yet; farmland-acquisition-map gets a golden output first.
 - **diligence-rooms**: parses model JSON with a regex, defaults its fast lane to a frontier model, has an agent recheck figures where pit-wall uses a code tie-out, and doesn't log tokens or cost.
 - **farmland-acquisition-map**: the fetch tolerates a 2% shortfall; the hold-out isn't time-split; "three methods agree" fires on two.
 - **pit-wall**: the number check misses small integers and numbers written as words.
-- **Reproducibility**: two repos lack a lockfile; none has linter configuration.
+- **Reproducibility**: two repos lack a lockfile; none has linter configuration. (CI now runs the tests in all five repos.)
 
 ## 14. Sources
 
